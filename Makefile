@@ -9,6 +9,3 @@ ${OUT_FILE}:
 
 clean:
 	rm ${OUT_FILE}
-
-test: ${OUT_FILE}
-	bash test.sh
